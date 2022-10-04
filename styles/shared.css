@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto";
+    background-image: linear-gradient(grey, grey, white, whitesmoke, lightgrey, grey, rgb(97, 95, 95));
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2em;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    word-spacing: nowrap;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-image: radial-gradient(white, whitesmoke, lightgrey);
+}
+
+.nav-item a:hover {
+    border: 1px solid #777;
+    box-sizing: border-box;
+    border-radius: 6px;
+    white-space: nowrap;
+    box-shadow: 1px 2px black;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.469), rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.427), rgba(255, 255, 255, 0.238), rgba(255, 255, 255, 0.193));
+
+}
+
+.navbar {
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0.471));
+}
+
+.navbar-brand img {
+    border-radius: 25%;
+    opacity: 75%;
+}

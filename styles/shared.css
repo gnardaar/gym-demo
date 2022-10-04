@@ -4,6 +4,7 @@
 body {
     font-family: "Roboto";
     background-image: linear-gradient(grey, grey, white, whitesmoke, lightgrey, grey, rgb(97, 95, 95));
+    background-repeat: no-repeat;
 }
 
 .nav-item {
